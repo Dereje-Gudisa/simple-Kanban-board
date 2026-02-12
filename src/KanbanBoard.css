@@ -1,0 +1,130 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.project-heading{
+    text-align: center;
+    color: #853f3f;
+}
+
+.main-div{
+    width: 80vw;
+    height: auto;
+    background-color:whitesmoke;
+}
+
+.task-adding{
+    text-align: center;
+    padding:15px;
+    margin:35px;
+}
+
+.input-values{
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+
+.text-input{
+    width: 20vw;
+}
+.text-input:focus{
+    border: none;
+}
+
+.option-input{
+    height: 30px;
+    border: 1px solid black;
+}
+.option-input:hover{
+    height: 30px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    
+}
+
+.add-btn{
+    width: 50px;
+    margin-left: 2px;
+    background-color: rgb(25, 126, 25);
+    color: white;
+}
+.add-btn:hover{
+    width: 50px;
+    margin-left: 2px;
+    background-color: rgb(20, 98, 20);
+    color: white;
+}
+
+.cards{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.states{
+    width:30%;
+    height:fit-content;
+    padding: 0px;
+    margin: 0px;
+}
+
+.class-heading{
+    text-align: center;
+    padding:8px;
+    background-color: gray;
+    color:white;
+}
+
+.lists{
+    align-items: center;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    margin: 8px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 5px;
+
+}
+
+.list-container{
+
+}
+
+.clickebles{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.arrow{
+    color:rgb(7, 94, 7);
+    background-color: rgb(227, 227, 227);
+    border: none;
+}
+
+.delete-button{
+    color:rgb(161, 49, 49);
+    background-color: rgb(227, 227, 227);
+    border:none;
+}
